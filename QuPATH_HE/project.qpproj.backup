@@ -1,0 +1,560 @@
+{
+  "version": "0.6.0",
+  "createTimestamp": 1767811424853,
+  "modifyTimestamp": 1767811424853,
+  "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/QuPATH_HE/project.qpproj",
+  "lastID": 6,
+  "images": [
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/651CR_B.czi",
+        "args": [
+          "--series",
+          "0"
+        ],
+        "metadata": {
+          "name": "651CR_B.czi - ScanRegion0",
+          "width": 27554,
+          "height": 24938,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 27554,
+              "height": 24938
+            },
+            {
+              "downsample": 2.0,
+              "width": 13777,
+              "height": 12469
+            },
+            {
+              "downsample": 4.0,
+              "width": 6888,
+              "height": 6234
+            },
+            {
+              "downsample": 8.0,
+              "width": 3444,
+              "height": 3117
+            },
+            {
+              "downsample": 16.0,
+              "width": 1722,
+              "height": 1558
+            },
+            {
+              "downsample": 32.0,
+              "width": 861,
+              "height": 779
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.21970713039518322,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.21970713039518322,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1024,
+          "preferredTileHeight": 1024
+        }
+      },
+      "entryID": 1,
+      "randomizedName": "b7768b31-5c4a-403f-b249-ad0b40c99724",
+      "imageName": "651CR_B.czi - ScanRegion0",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/651CR_B.czi",
+        "args": [
+          "--series",
+          "1"
+        ],
+        "metadata": {
+          "name": "651CR_B.czi - ScanRegion1",
+          "width": 28976,
+          "height": 25005,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 28976,
+              "height": 25005
+            },
+            {
+              "downsample": 2.0,
+              "width": 14488,
+              "height": 12502
+            },
+            {
+              "downsample": 4.0,
+              "width": 7244,
+              "height": 6251
+            },
+            {
+              "downsample": 8.0,
+              "width": 3622,
+              "height": 3125
+            },
+            {
+              "downsample": 16.0,
+              "width": 1811,
+              "height": 1562
+            },
+            {
+              "downsample": 32.0,
+              "width": 905,
+              "height": 781
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.21970713039518322,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.21970713039518322,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1024,
+          "preferredTileHeight": 1024
+        }
+      },
+      "entryID": 2,
+      "randomizedName": "bf89bc56-e162-42fa-a037-6d3e224fe844",
+      "imageName": "651CR_B.czi - ScanRegion1",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/651CR_B.czi",
+        "args": [
+          "--series",
+          "2"
+        ],
+        "metadata": {
+          "name": "651CR_B.czi - ScanRegion2",
+          "width": 30443,
+          "height": 26081,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 30443,
+              "height": 26081
+            },
+            {
+              "downsample": 2.0,
+              "width": 15221,
+              "height": 13040
+            },
+            {
+              "downsample": 4.0,
+              "width": 7610,
+              "height": 6520
+            },
+            {
+              "downsample": 8.0,
+              "width": 3805,
+              "height": 3260
+            },
+            {
+              "downsample": 16.0,
+              "width": 1902,
+              "height": 1630
+            },
+            {
+              "downsample": 32.0,
+              "width": 951,
+              "height": 815
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.21970713039518322,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.21970713039518322,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1024,
+          "preferredTileHeight": 1024
+        }
+      },
+      "entryID": 3,
+      "randomizedName": "0b84dc19-2763-4118-8234-25a3bfc573cf",
+      "imageName": "651CR_B.czi - ScanRegion2",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/651CR_B.czi",
+        "args": [
+          "--series",
+          "3"
+        ],
+        "metadata": {
+          "name": "651CR_B.czi - ScanRegion3",
+          "width": 29004,
+          "height": 30333,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 29004,
+              "height": 30333
+            },
+            {
+              "downsample": 2.0,
+              "width": 14502,
+              "height": 15166
+            },
+            {
+              "downsample": 4.0,
+              "width": 7251,
+              "height": 7583
+            },
+            {
+              "downsample": 8.0,
+              "width": 3625,
+              "height": 3791
+            },
+            {
+              "downsample": 16.0,
+              "width": 1812,
+              "height": 1895
+            },
+            {
+              "downsample": 32.0,
+              "width": 906,
+              "height": 947
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.21970713039518322,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.21970713039518322,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1024,
+          "preferredTileHeight": 1024
+        }
+      },
+      "entryID": 4,
+      "randomizedName": "4ad5b297-05ff-4fb0-82cd-7625a874b6cc",
+      "imageName": "651CR_B.czi - ScanRegion3",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/651CR_B.czi",
+        "args": [
+          "--series",
+          "4"
+        ],
+        "metadata": {
+          "name": "651CR_B.czi - ScanRegion4",
+          "width": 30440,
+          "height": 28198,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 30440,
+              "height": 28198
+            },
+            {
+              "downsample": 2.0,
+              "width": 15220,
+              "height": 14099
+            },
+            {
+              "downsample": 4.0,
+              "width": 7610,
+              "height": 7049
+            },
+            {
+              "downsample": 8.0,
+              "width": 3805,
+              "height": 3524
+            },
+            {
+              "downsample": 16.0,
+              "width": 1902,
+              "height": 1762
+            },
+            {
+              "downsample": 32.0,
+              "width": 951,
+              "height": 881
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.21970713039518322,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.21970713039518322,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1024,
+          "preferredTileHeight": 1024
+        }
+      },
+      "entryID": 5,
+      "randomizedName": "a0148956-7000-44d7-a67f-38bf5b7533ba",
+      "imageName": "651CR_B.czi - ScanRegion4",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/651CR_B.czi",
+        "args": [
+          "--series",
+          "5"
+        ],
+        "metadata": {
+          "name": "651CR_B.czi - ScanRegion5",
+          "width": 29057,
+          "height": 37891,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 29057,
+              "height": 37891
+            },
+            {
+              "downsample": 2.0,
+              "width": 14528,
+              "height": 18945
+            },
+            {
+              "downsample": 4.0,
+              "width": 7264,
+              "height": 9472
+            },
+            {
+              "downsample": 8.0,
+              "width": 3632,
+              "height": 4736
+            },
+            {
+              "downsample": 16.0,
+              "width": 1816,
+              "height": 2368
+            },
+            {
+              "downsample": 32.0,
+              "width": 908,
+              "height": 1184
+            },
+            {
+              "downsample": 64.0,
+              "width": 454,
+              "height": 592
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.21970713039518322,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.21970713039518322,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1024,
+          "preferredTileHeight": 1024
+        }
+      },
+      "entryID": 6,
+      "randomizedName": "1a230580-bee0-4074-bbf1-ce13ea6a4802",
+      "imageName": "651CR_B.czi - ScanRegion5",
+      "metadata": {},
+      "tags": []
+    }
+  ]
+}
