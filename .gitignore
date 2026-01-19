@@ -219,3 +219,6 @@ __marimo__/
 *.geojson
 *.czi
 *.ome.tiff
+*.jpg
+*.png
+*.tiff

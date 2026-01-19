@@ -3,21 +3,74 @@
   "createTimestamp": 1767811424853,
   "modifyTimestamp": 1767811424853,
   "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/QuPATH_HE/project.qpproj",
-  "lastID": 6,
+  "lastID": 81,
   "images": [
     {
       "serverBuilder": {
-        "builderType": "uri",
-        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
-        "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/651CR_B.czi",
-        "args": [
-          "--series",
-          "0"
-        ],
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/651CR_T_s1.ome.tiff",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "651CR_T_s1.ome.tiff",
+            "width": 14504,
+            "height": 14640,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 14504,
+                "height": 14640
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 0.439414263,
+                "unit": "µm"
+              },
+              "pixelHeight": {
+                "value": 0.439414263,
+                "unit": "µm"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "magnification": 20.0,
+            "preferredTileWidth": 1328,
+            "preferredTileHeight": 1056
+          }
+        },
         "metadata": {
-          "name": "651CR_B.czi - ScanRegion0",
-          "width": 27554,
-          "height": 24938,
+          "name": "651CR_T_s1.ome.tiff",
+          "width": 14504,
+          "height": 14640,
           "sizeZ": 1,
           "sizeT": 1,
           "channelType": "DEFAULT",
@@ -26,33 +79,390 @@
           "levels": [
             {
               "downsample": 1.0,
-              "width": 27554,
-              "height": 24938
-            },
-            {
-              "downsample": 2.0,
-              "width": 13777,
-              "height": 12469
+              "width": 14504,
+              "height": 14640
             },
             {
               "downsample": 4.0,
-              "width": 6888,
-              "height": 6234
+              "width": 3626,
+              "height": 3660
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
             },
             {
-              "downsample": 8.0,
-              "width": 3444,
-              "height": 3117
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.439414263,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.439414263,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1328,
+          "preferredTileHeight": 1056
+        }
+      },
+      "entryID": 46,
+      "randomizedName": "104a9538-7998-4016-b789-edd31e3e6517",
+      "imageName": "651CR_T_s1.ome.tiff",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/674CR_B1_s1.ome.tiff",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "674CR_B1_s1.ome.tiff",
+            "width": 12350,
+            "height": 14647,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 12350,
+                "height": 14647
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 0.439414263,
+                "unit": "µm"
+              },
+              "pixelHeight": {
+                "value": 0.439414263,
+                "unit": "µm"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "magnification": 20.0,
+            "preferredTileWidth": 1376,
+            "preferredTileHeight": 976
+          }
+        },
+        "metadata": {
+          "name": "674CR_B1_s1.ome.tiff",
+          "width": 12350,
+          "height": 14647,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 12350,
+              "height": 14647
+            },
+            {
+              "downsample": 4.0,
+              "width": 3087,
+              "height": 3661
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.439414263,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.439414263,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1376,
+          "preferredTileHeight": 976
+        }
+      },
+      "entryID": 48,
+      "randomizedName": "9fc66bd0-5902-4209-bc38-300361dba57a",
+      "imageName": "674CR_B1_s1.ome.tiff",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/674CR_H1_s2.ome.tiff",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "674CR_H1_s2.ome.tiff",
+            "width": 11622,
+            "height": 13030,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 11622,
+                "height": 13030
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 0.439414263,
+                "unit": "µm"
+              },
+              "pixelHeight": {
+                "value": 0.439414263,
+                "unit": "µm"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "magnification": 20.0,
+            "preferredTileWidth": 1296,
+            "preferredTileHeight": 1008
+          }
+        },
+        "metadata": {
+          "name": "674CR_H1_s2.ome.tiff",
+          "width": 11622,
+          "height": 13030,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 11622,
+              "height": 13030
+            },
+            {
+              "downsample": 4.0,
+              "width": 2905,
+              "height": 3257
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.439414263,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.439414263,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1296,
+          "preferredTileHeight": 1008
+        }
+      },
+      "entryID": 53,
+      "randomizedName": "b29277f2-1492-431f-bf42-a1c0fe5e2ebf",
+      "imageName": "674CR_H1_s2.ome.tiff",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/674CR_T1_s5.ome.tiff",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "674CR_T1_s5.ome.tiff",
+            "width": 12400,
+            "height": 24928,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 12400,
+                "height": 24928
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 0.439414263,
+                "unit": "µm"
+              },
+              "pixelHeight": {
+                "value": 0.439414263,
+                "unit": "µm"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "magnification": 20.0,
+            "preferredTileWidth": 1392,
+            "preferredTileHeight": 1008
+          }
+        },
+        "metadata": {
+          "name": "674CR_T1_s5.ome.tiff",
+          "width": 12400,
+          "height": 24928,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 12400,
+              "height": 24928
+            },
+            {
+              "downsample": 4.0,
+              "width": 3100,
+              "height": 6232
             },
             {
               "downsample": 16.0,
-              "width": 1722,
+              "width": 775,
               "height": 1558
-            },
-            {
-              "downsample": 32.0,
-              "width": 861,
-              "height": 779
             }
           ],
           "channels": [
@@ -71,11 +481,11 @@
           ],
           "pixelCalibration": {
             "pixelWidth": {
-              "value": 0.21970713039518322,
+              "value": 0.439414263,
               "unit": "µm"
             },
             "pixelHeight": {
-              "value": 0.21970713039518322,
+              "value": 0.439414263,
               "unit": "µm"
             },
             "zSpacing": {
@@ -86,29 +496,82 @@
             "timepoints": []
           },
           "magnification": 20.0,
-          "preferredTileWidth": 1024,
-          "preferredTileHeight": 1024
+          "preferredTileWidth": 1392,
+          "preferredTileHeight": 1008
         }
       },
-      "entryID": 1,
-      "randomizedName": "b7768b31-5c4a-403f-b249-ad0b40c99724",
-      "imageName": "651CR_B.czi - ScanRegion0",
+      "entryID": 60,
+      "randomizedName": "fb609c2a-77b6-4556-ac6a-0dab8fcb87a7",
+      "imageName": "674CR_T1_s5.ome.tiff",
       "metadata": {},
       "tags": []
     },
     {
       "serverBuilder": {
-        "builderType": "uri",
-        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
-        "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/651CR_B.czi",
-        "args": [
-          "--series",
-          "1"
-        ],
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/677B_B_s3.ome.tiff",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "677B_B_s3.ome.tiff",
+            "width": 18848,
+            "height": 28707,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 18848,
+                "height": 28707
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 0.439414263,
+                "unit": "µm"
+              },
+              "pixelHeight": {
+                "value": 0.439414263,
+                "unit": "µm"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "magnification": 20.0,
+            "preferredTileWidth": 1360,
+            "preferredTileHeight": 1040
+          }
+        },
         "metadata": {
-          "name": "651CR_B.czi - ScanRegion1",
-          "width": 28976,
-          "height": 25005,
+          "name": "677B_B_s3.ome.tiff",
+          "width": 18848,
+          "height": 28707,
           "sizeZ": 1,
           "sizeT": 1,
           "channelType": "DEFAULT",
@@ -117,33 +580,18 @@
           "levels": [
             {
               "downsample": 1.0,
-              "width": 28976,
-              "height": 25005
-            },
-            {
-              "downsample": 2.0,
-              "width": 14488,
-              "height": 12502
+              "width": 18848,
+              "height": 28707
             },
             {
               "downsample": 4.0,
-              "width": 7244,
-              "height": 6251
-            },
-            {
-              "downsample": 8.0,
-              "width": 3622,
-              "height": 3125
+              "width": 4712,
+              "height": 7176
             },
             {
               "downsample": 16.0,
-              "width": 1811,
-              "height": 1562
-            },
-            {
-              "downsample": 32.0,
-              "width": 905,
-              "height": 781
+              "width": 1178,
+              "height": 1794
             }
           ],
           "channels": [
@@ -162,11 +610,11 @@
           ],
           "pixelCalibration": {
             "pixelWidth": {
-              "value": 0.21970713039518322,
+              "value": 0.439414263,
               "unit": "µm"
             },
             "pixelHeight": {
-              "value": 0.21970713039518322,
+              "value": 0.439414263,
               "unit": "µm"
             },
             "zSpacing": {
@@ -177,29 +625,82 @@
             "timepoints": []
           },
           "magnification": 20.0,
-          "preferredTileWidth": 1024,
-          "preferredTileHeight": 1024
+          "preferredTileWidth": 1360,
+          "preferredTileHeight": 1040
         }
       },
-      "entryID": 2,
-      "randomizedName": "bf89bc56-e162-42fa-a037-6d3e224fe844",
-      "imageName": "651CR_B.czi - ScanRegion1",
+      "entryID": 63,
+      "randomizedName": "df1952e3-0629-410c-a61f-bbe9432704f1",
+      "imageName": "677B_B_s3.ome.tiff",
       "metadata": {},
       "tags": []
     },
     {
       "serverBuilder": {
-        "builderType": "uri",
-        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
-        "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/651CR_B.czi",
-        "args": [
-          "--series",
-          "2"
-        ],
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/677B_H_s2.ome.tiff",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "677B_H_s2.ome.tiff",
+            "width": 24622,
+            "height": 22208,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 24622,
+                "height": 22208
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 0.439414263,
+                "unit": "µm"
+              },
+              "pixelHeight": {
+                "value": 0.439414263,
+                "unit": "µm"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "magnification": 20.0,
+            "preferredTileWidth": 1376,
+            "preferredTileHeight": 1024
+          }
+        },
         "metadata": {
-          "name": "651CR_B.czi - ScanRegion2",
-          "width": 30443,
-          "height": 26081,
+          "name": "677B_H_s2.ome.tiff",
+          "width": 24622,
+          "height": 22208,
           "sizeZ": 1,
           "sizeT": 1,
           "channelType": "DEFAULT",
@@ -208,33 +709,18 @@
           "levels": [
             {
               "downsample": 1.0,
-              "width": 30443,
-              "height": 26081
-            },
-            {
-              "downsample": 2.0,
-              "width": 15221,
-              "height": 13040
+              "width": 24622,
+              "height": 22208
             },
             {
               "downsample": 4.0,
-              "width": 7610,
-              "height": 6520
-            },
-            {
-              "downsample": 8.0,
-              "width": 3805,
-              "height": 3260
+              "width": 6155,
+              "height": 5552
             },
             {
               "downsample": 16.0,
-              "width": 1902,
-              "height": 1630
-            },
-            {
-              "downsample": 32.0,
-              "width": 951,
-              "height": 815
+              "width": 1538,
+              "height": 1388
             }
           ],
           "channels": [
@@ -253,11 +739,11 @@
           ],
           "pixelCalibration": {
             "pixelWidth": {
-              "value": 0.21970713039518322,
+              "value": 0.439414263,
               "unit": "µm"
             },
             "pixelHeight": {
-              "value": 0.21970713039518322,
+              "value": 0.439414263,
               "unit": "µm"
             },
             "zSpacing": {
@@ -268,29 +754,82 @@
             "timepoints": []
           },
           "magnification": 20.0,
-          "preferredTileWidth": 1024,
+          "preferredTileWidth": 1376,
           "preferredTileHeight": 1024
         }
       },
-      "entryID": 3,
-      "randomizedName": "0b84dc19-2763-4118-8234-25a3bfc573cf",
-      "imageName": "651CR_B.czi - ScanRegion2",
+      "entryID": 65,
+      "randomizedName": "a904b3cd-6934-4fc0-8cce-b5ad8de60880",
+      "imageName": "677B_H_s2.ome.tiff",
       "metadata": {},
       "tags": []
     },
     {
       "serverBuilder": {
-        "builderType": "uri",
-        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
-        "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/651CR_B.czi",
-        "args": [
-          "--series",
-          "3"
-        ],
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/677B_T_s3.ome.tiff",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "677B_T_s3.ome.tiff",
+            "width": 26060,
+            "height": 29248,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 26060,
+                "height": 29248
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 0.439414263,
+                "unit": "µm"
+              },
+              "pixelHeight": {
+                "value": 0.439414263,
+                "unit": "µm"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "magnification": 20.0,
+            "preferredTileWidth": 1376,
+            "preferredTileHeight": 1008
+          }
+        },
         "metadata": {
-          "name": "651CR_B.czi - ScanRegion3",
-          "width": 29004,
-          "height": 30333,
+          "name": "677B_T_s3.ome.tiff",
+          "width": 26060,
+          "height": 29248,
           "sizeZ": 1,
           "sizeT": 1,
           "channelType": "DEFAULT",
@@ -299,33 +838,18 @@
           "levels": [
             {
               "downsample": 1.0,
-              "width": 29004,
-              "height": 30333
-            },
-            {
-              "downsample": 2.0,
-              "width": 14502,
-              "height": 15166
+              "width": 26060,
+              "height": 29248
             },
             {
               "downsample": 4.0,
-              "width": 7251,
-              "height": 7583
-            },
-            {
-              "downsample": 8.0,
-              "width": 3625,
-              "height": 3791
+              "width": 6515,
+              "height": 7312
             },
             {
               "downsample": 16.0,
-              "width": 1812,
-              "height": 1895
-            },
-            {
-              "downsample": 32.0,
-              "width": 906,
-              "height": 947
+              "width": 1628,
+              "height": 1828
             }
           ],
           "channels": [
@@ -344,11 +868,11 @@
           ],
           "pixelCalibration": {
             "pixelWidth": {
-              "value": 0.21970713039518322,
+              "value": 0.439414263,
               "unit": "µm"
             },
             "pixelHeight": {
-              "value": 0.21970713039518322,
+              "value": 0.439414263,
               "unit": "µm"
             },
             "zSpacing": {
@@ -359,29 +883,82 @@
             "timepoints": []
           },
           "magnification": 20.0,
-          "preferredTileWidth": 1024,
-          "preferredTileHeight": 1024
+          "preferredTileWidth": 1376,
+          "preferredTileHeight": 1008
         }
       },
-      "entryID": 4,
-      "randomizedName": "4ad5b297-05ff-4fb0-82cd-7625a874b6cc",
-      "imageName": "651CR_B.czi - ScanRegion3",
+      "entryID": 70,
+      "randomizedName": "11298ac6-69b4-4567-9340-cc15623cf108",
+      "imageName": "677B_T_s3.ome.tiff",
       "metadata": {},
       "tags": []
     },
     {
       "serverBuilder": {
-        "builderType": "uri",
-        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
-        "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/651CR_B.czi",
-        "args": [
-          "--series",
-          "4"
-        ],
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/679CR_B_s2.ome.tiff",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "679CR_B_s2.ome.tiff",
+            "width": 13800,
+            "height": 17888,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 13800,
+                "height": 17888
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 0.439414263,
+                "unit": "µm"
+              },
+              "pixelHeight": {
+                "value": 0.439414263,
+                "unit": "µm"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "magnification": 20.0,
+            "preferredTileWidth": 1392,
+            "preferredTileHeight": 1008
+          }
+        },
         "metadata": {
-          "name": "651CR_B.czi - ScanRegion4",
-          "width": 30440,
-          "height": 28198,
+          "name": "679CR_B_s2.ome.tiff",
+          "width": 13800,
+          "height": 17888,
           "sizeZ": 1,
           "sizeT": 1,
           "channelType": "DEFAULT",
@@ -390,33 +967,18 @@
           "levels": [
             {
               "downsample": 1.0,
-              "width": 30440,
-              "height": 28198
-            },
-            {
-              "downsample": 2.0,
-              "width": 15220,
-              "height": 14099
+              "width": 13800,
+              "height": 17888
             },
             {
               "downsample": 4.0,
-              "width": 7610,
-              "height": 7049
-            },
-            {
-              "downsample": 8.0,
-              "width": 3805,
-              "height": 3524
+              "width": 3450,
+              "height": 4472
             },
             {
               "downsample": 16.0,
-              "width": 1902,
-              "height": 1762
-            },
-            {
-              "downsample": 32.0,
-              "width": 951,
-              "height": 881
+              "width": 862,
+              "height": 1118
             }
           ],
           "channels": [
@@ -435,11 +997,11 @@
           ],
           "pixelCalibration": {
             "pixelWidth": {
-              "value": 0.21970713039518322,
+              "value": 0.439414263,
               "unit": "µm"
             },
             "pixelHeight": {
-              "value": 0.21970713039518322,
+              "value": 0.439414263,
               "unit": "µm"
             },
             "zSpacing": {
@@ -450,29 +1012,82 @@
             "timepoints": []
           },
           "magnification": 20.0,
-          "preferredTileWidth": 1024,
-          "preferredTileHeight": 1024
+          "preferredTileWidth": 1392,
+          "preferredTileHeight": 1008
         }
       },
-      "entryID": 5,
-      "randomizedName": "a0148956-7000-44d7-a67f-38bf5b7533ba",
-      "imageName": "651CR_B.czi - ScanRegion4",
+      "entryID": 72,
+      "randomizedName": "3a783ba1-75e4-4ab9-a688-c0d2ea3e2096",
+      "imageName": "679CR_B_s2.ome.tiff",
       "metadata": {},
       "tags": []
     },
     {
       "serverBuilder": {
-        "builderType": "uri",
-        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
-        "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/651CR_B.czi",
-        "args": [
-          "--series",
-          "5"
-        ],
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/651CR_B_s6.ome.tiff",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "651CR_B_s6.ome.tiff",
+            "width": 14529,
+            "height": 18976,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 14529,
+                "height": 18976
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 0.439414263,
+                "unit": "µm"
+              },
+              "pixelHeight": {
+                "value": 0.439414263,
+                "unit": "µm"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "magnification": 20.0,
+            "preferredTileWidth": 1328,
+            "preferredTileHeight": 1056
+          }
+        },
         "metadata": {
-          "name": "651CR_B.czi - ScanRegion5",
-          "width": 29057,
-          "height": 37891,
+          "name": "651CR_B_s6.ome.tiff",
+          "width": 14529,
+          "height": 18976,
           "sizeZ": 1,
           "sizeT": 1,
           "channelType": "DEFAULT",
@@ -481,38 +1096,18 @@
           "levels": [
             {
               "downsample": 1.0,
-              "width": 29057,
-              "height": 37891
-            },
-            {
-              "downsample": 2.0,
-              "width": 14528,
-              "height": 18945
+              "width": 14529,
+              "height": 18976
             },
             {
               "downsample": 4.0,
-              "width": 7264,
-              "height": 9472
-            },
-            {
-              "downsample": 8.0,
               "width": 3632,
-              "height": 4736
+              "height": 4744
             },
             {
               "downsample": 16.0,
-              "width": 1816,
-              "height": 2368
-            },
-            {
-              "downsample": 32.0,
               "width": 908,
-              "height": 1184
-            },
-            {
-              "downsample": 64.0,
-              "width": 454,
-              "height": 592
+              "height": 1186
             }
           ],
           "channels": [
@@ -531,11 +1126,11 @@
           ],
           "pixelCalibration": {
             "pixelWidth": {
-              "value": 0.21970713039518322,
+              "value": 0.439414263,
               "unit": "µm"
             },
             "pixelHeight": {
-              "value": 0.21970713039518322,
+              "value": 0.439414263,
               "unit": "µm"
             },
             "zSpacing": {
@@ -546,13 +1141,137 @@
             "timepoints": []
           },
           "magnification": 20.0,
-          "preferredTileWidth": 1024,
-          "preferredTileHeight": 1024
+          "preferredTileWidth": 1328,
+          "preferredTileHeight": 1056
         }
       },
-      "entryID": 6,
-      "randomizedName": "1a230580-bee0-4074-bbf1-ce13ea6a4802",
-      "imageName": "651CR_B.czi - ScanRegion5",
+      "entryID": 73,
+      "randomizedName": "48956a68-7284-4eb6-9e50-5152e53dd99e",
+      "imageName": "651CR_B_s6.ome.tiff",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:/C:/Users/husse/VSCode_Projects/Image_Analysis/651CR_H__s2.ome.tiff",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "651CR_H__s2.ome.tiff",
+            "width": 14502,
+            "height": 9797,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 14502,
+                "height": 9797
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 0.439414263,
+                "unit": "µm"
+              },
+              "pixelHeight": {
+                "value": 0.439414263,
+                "unit": "µm"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "magnification": 20.0,
+            "preferredTileWidth": 1328,
+            "preferredTileHeight": 992
+          }
+        },
+        "metadata": {
+          "name": "651CR_H__s2.ome.tiff",
+          "width": 14502,
+          "height": 9797,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 14502,
+              "height": 9797
+            },
+            {
+              "downsample": 4.0,
+              "width": 3625,
+              "height": 2449
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.439414263,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.439414263,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1328,
+          "preferredTileHeight": 992
+        }
+      },
+      "entryID": 74,
+      "randomizedName": "3cf391be-eaa4-4a9f-82fd-711d060b5d9a",
+      "imageName": "651CR_H__s2.ome.tiff",
       "metadata": {},
       "tags": []
     }
